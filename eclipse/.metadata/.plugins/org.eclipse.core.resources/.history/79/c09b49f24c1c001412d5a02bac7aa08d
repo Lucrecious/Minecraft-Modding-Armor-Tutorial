@@ -1,0 +1,11 @@
+package net.lucrecious.tutorialmod.resources;
+
+public class References {
+	
+	public static String name = "Tutorial Mod";
+	public static String version = "1.7.1.0.0.1";
+	public static String mod_id = "tutorialmod";
+	public static String proxy_client = "net.lucrecious.tutorialmod.proxy.ProxyClient";
+	public static String proxy_common = "net.lucrecious.tutorialmod.proxy.ProxyCommon";
+	
+}

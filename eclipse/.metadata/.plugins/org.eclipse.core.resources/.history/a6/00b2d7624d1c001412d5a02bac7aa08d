@@ -1,0 +1,9 @@
+package net.lucrecious.tutorialmod.proxy;
+
+public class ProxyClient extends ProxyCommon {
+	
+	public static void registerModels(){
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package net.lucrecious.tutorialmod;
+
+import net.minecraft.init.Blocks;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+
+@Mod(modid = "tutorial_mod", version = "1.7.10.0.0.1", name = "Tutorial Mod")
+public class TutorialMod
+    
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+    }
+}

@@ -1,0 +1,31 @@
+package net.lucrecious.tutorialmod;
+
+import net.lucrecious.tutorialmod.proxy.ProxyClient;
+import net.lucrecious.tutorialmod.proxy.ProxyCommon;
+import net.lucrecious.tutorialmod.resources.References;
+import net.minecraft.init.Blocks;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = References.mod_id, version = References.version, name = References.name)
+public class TutorialMod{
+	
+	@SidedProxy(clientSide=References.proxy_client, serverSide=References.proxy_common)
+	public static ProxyCommon proxy_common;
+	public static ProxyClient proxy_client;
+	
+    
+    @EventHandler
+    public void pre_init(FMLPreInitializationEvent event) {
+    }
+    
+    @EventHandler
+    public void init(FMLInitializationEvent event) {
+ 
+    	proxy_client.register_renderers();
+    	
+    }
+}

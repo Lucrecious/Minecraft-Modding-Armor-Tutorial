@@ -1,0 +1,17 @@
+package net.lucrecious.tutorialmod.proxy;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import net.minecraft.client.model.ModelBiped;
+import net.minecraft.item.Item;
+
+public class ProxyClient extends ProxyCommon {
+	
+	public static final Map<Item, ModelBiped> armorModels; = new HashMap<Item, ModelBiped>();
+	
+	public static void register_renderers(){
+		
+	}
+
+}

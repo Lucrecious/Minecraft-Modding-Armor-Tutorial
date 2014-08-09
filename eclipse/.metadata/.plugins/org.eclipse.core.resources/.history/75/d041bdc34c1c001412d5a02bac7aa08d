@@ -1,0 +1,11 @@
+package net.lucrecious.tutorialmod.resources;
+
+public class References {
+	
+	String name = "Tutorial Mod";
+	String version = "1.7.1.0.0.1";
+	String mod_id = "tutorialmod";
+	String proxy_client = "net.lucrecious.tutorialmod.proxy.ProxyClient";
+	String proxy_common = "net.lucrecious.tutorialmod.proxy.ProxyCommon";
+	
+}

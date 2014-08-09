@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
+<fullyQualifiedTypeName name="net.lucrecious.tutorialmod.proxy.ProxyCommon"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPreInitializationEvent"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemArmor"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="net.lucrecious.tutorialmod.resources.Resource"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.IIconRegister"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.util.EnumHelper"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemArmor.ArmorMaterial"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.lucrecious.tutorialmod.resources.References"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.EntityLivingBase"/>
+<fullyQualifiedTypeName name="net.lucrecious.tutorialmod.proxy.ProxyClient"/>
+<fullyQualifiedTypeName name="net.minecraft.client.model.ModelBiped"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.lucrecious.tutorialmod.models.ModelCustomArmor"/>
+<fullyQualifiedTypeName name="net.lucrecious.tutorialmod.TutorialMod"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
+<fullyQualifiedTypeName name="net.minecraft.item.EnumAction"/>
+</qualifiedTypeNameHistroy>

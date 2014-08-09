@@ -1,0 +1,14 @@
+package net.lucrecious.tutorialmod.proxy;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class ProxyClient extends ProxyCommon {
+	
+	public static final Map<Item, ModelBiped> armorModels; = new HashMap<Item, ModelBiped>();
+	
+	public static void register_renderers(){
+		
+	}
+
+}

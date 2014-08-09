@@ -1,0 +1,20 @@
+package net.lucrecious.tutorialmod;
+
+import net.lucrecious.tutorialmod.resources.References;
+import net.minecraft.init.Blocks;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+
+@Mod(modid = References.mod_id, version = References.version, name = References.name)
+public class TutorialMod{
+	
+	@SidedProxy(clientSide=References.proxy_client, serverSide=References.proxy_common)
+	
+    
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+    }
+}

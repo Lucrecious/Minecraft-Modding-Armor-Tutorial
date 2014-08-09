@@ -1,0 +1,16 @@
+package net.lucrecious.tutorialmod.armor;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemArmor;
+
+public class ArmorTM extends ItemArmor{
+
+	public ArmorTM(ArmorMaterial material, int render_idx, int type) {
+		super(material, render_idx, type);
+		
+		this.setMaxStackSize(1);
+		this.setCreativeTab(CreativeTabs.tabMisc);
+		
+	}
+
+}
